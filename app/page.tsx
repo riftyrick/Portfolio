@@ -47,7 +47,7 @@ export default function Home() {
             />
             <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text"
                 id="name">
-                Farmeurimmo
+                RiftyRick
             </h1>
 
             <div
@@ -68,30 +68,10 @@ export default function Home() {
                     {t('devat_noctis')}
                     <Link
                         target="_blank"
-                        href="https://lastjourney.fr"
+                        href="https://delluria.fr"
                         className="underline duration-500 hover:text-zinc-300"
                     >
-                        LastJourney
-                    </Link>
-                    <br/>
-                    <br/>
-                    {t('devat_noctis')}
-                    <Link
-                        target="_blank"
-                        href="https://edmine.fr"
-                        className="underline duration-500 hover:text-zinc-300"
-                    >
-                        Edmine
-                    </Link>
-                    <br/>
-                    <br/>
-                    (not public) {t('devat_noctis')}
-                    <Link
-                        target="_blank"
-                        href="https://noctis.rip"
-                        className="underline duration-500 hover:text-zinc-300"
-                    >
-                        Noctis
+                        Delluria
                     </Link>
                     <br/>
                     <br/>

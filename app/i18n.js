@@ -12,18 +12,18 @@ i18n
         resources: {
             fr: {
                 translation: {
-                    app_title: 'Accueil - Farmeurimmo',
+                    app_title: 'Accueil - RiftyRick',
                     nav_dev: 'Développeur',
                     nav_as: 'Administrateur système',
-                    nav_provider: 'Provider',
+                    nav_provider: 'Services',
                     nav_stats: 'Statistiques',
                     nav_bep: 'Blog & Projets',
                     nav_contact: 'Contact',
-                    desc_dev: 'Développeur Java, API Minecraft : Spigot/Paper/Purpur/Bungee/Velocity, Web (HTML,CSS,JS/TS), C++, SQL, Python',
+                    desc_dev: 'Développeur JavaScript, API Discord js, Web (HTML,CSS,JS,PHP), C# (Unity), SQL, Python',
                     desc_as: 'Administrateur Système',
                     desc_am_ai: 'Amateur de cybersécurité & d\'IA',
                     desc_provider: 'Prestataire de services',
-                    devat_noctis: 'Développeur chez ',
+                    devat_noctis: 'Fondateur de ',
                     dev_title: 'Développeur - Farmeurimmo',
                     dev_langs: 'Langages',
                     dev_level_1: 'Débutant',
