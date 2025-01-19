@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://farmeurimmo.fr/</loc>
+        <lastmod>2023-07-06T11:18:57+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://farmeurimmo.fr/dev</loc>
+        <lastmod>2023-07-06T11:18:57+00:00</lastmod>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://farmeurimmo.fr/sa</loc>
+        <lastmod>2023-07-06T11:18:57+00:00</lastmod>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://farmeurimmo.fr/stats</loc>
+        <lastmod>2023-07-06T11:18:57+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://farmeurimmo.fr/projects</loc>
+        <lastmod>2023-07-06T11:18:57+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://farmeurimmo.fr/contact</loc>
+        <lastmod>2023-07-06T11:18:57+00:00</lastmod>
+        <priority>0.85</priority>
+    </url>
+
+</urlset>

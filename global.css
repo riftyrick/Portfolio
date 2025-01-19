@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .text-edge-outline {
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    }
+}
+
+@keyframes ricochet {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.green-gradient {
+    background: linear-gradient(to right, green 25%, green 50%, transparent 60%, transparent 90%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.3s ease-in-out;
+}
+
+.green-gradient:hover {
+    background-position: left;
+}
+
+.red-gradient {
+    background: linear-gradient(to right, red 25%, red 45%, transparent 60%, transparent 90%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.3s ease-in-out;
+}
+
+.red-gradient:hover {
+    background-position: left;
+}
+
+.animate-bar {
+    width: 50%;
+    animation: ricochet 2s infinite;
+}
+
+@media screen and (max-width: 1100px) {
+    div {
+        flex-direction: column;
+    }
+
+    #home {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #space {
+        margin-top: 30px;
+    }
+
+    #space2 {
+        margin-top: 32%;
+    }
+
+    body {
+        min-width: 500px;
+    }
+
+    #phone-space {
+        margin-top: 24%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #phone-space {
+        margin-top: 35%;
+    }
+}
+

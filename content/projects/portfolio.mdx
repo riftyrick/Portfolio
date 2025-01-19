@@ -1,0 +1,89 @@
+---
+title: PROJET - Portfolio
+description: Le portfolio sur lequel vous êtes actuellement. Dans cet article, j'explique mon aventure, les fonctionnalités, les articles, le futur de ce nouveau site.
+repository: farmeurimmo/portfolio
+url: https://farmeurimmo.fr
+date: 2023-06-20
+published: true
+---
+
+# Introduction
+
+Ce portfolio est basé sur une [template](https://vercel.com/templates/next.js/nextjs-portfolio-pageview-counter) open source que j'ai modifié pour mes besoins.
+
+# Fonctionnalités
+
+Par défaut, la template propose les fonctionnalités suivantes :
+- Page d'accueil
+- Page de contact
+- Page de "projets" + Rédaction des articles en .mdx (voir explications plus bas)
+
+# Rédaction d'articles
+
+La rédaction des articles se fait dans des fichiers `.mdx` dans le dossier `content/projects`.
+
+Le mdx est un mélange de markdown et de JSX (React).
+
+Voici un exemple de fichier contenant un article `.mdx` :
+
+```mdx
+---
+title: Titre de l'article
+description: Votre description ici
+repository: Votre repo ici
+url: Le lien de votre site ici
+date: 2023-06-20
+published: true
+---
+
+# Titre (équivalent h1)
+
+## Sous-titre (équivalent h2)
+
+contenu
+
+## Sous-titre 2 (équivalent h2)
+
+contenu
+```
+
+## À noter
+
+- Le `published` est important, il permet de savoir si l'article est publié ou non. Si vous mettez `false`, l'article ne sera pas publié.
+- **Il ne faut pas se tromper sur la date au risque de tout casser.**
+
+# Installation
+
+J'ai deploy depuis vercel directement donc il m'a créé un repo sur github et tout ce dont il avait besoin.
+
+J'ai ensuite commencé à traduire l'entièreté du site en français.
+J'ai ensuite mis mes informations, mes paramètres, mes projets, etc.
+
+Ce site est hébergé sur [Vercel](https://vercel.com/).
+
+Comme pour le reste de mon domaine, je le gère via [Cloudflare](https://www.cloudflare.com/).
+
+# Nouvelles fonctionnalités
+
+Je vais sans doute ajouter :
+- Une page de présentation détaillée
+- Une page de "CV"/parcours
+- Une page easteregg
+
+Et améliorer :
+- La page 404
+- Les couleurs
+- Les animations
+- Le responsive
+
+# Mon avis
+
+Je suis très content de ce site, il est simple, efficace et rapide.
+Même si j'ai eu quelques problèmes avec la template au début, j'ai réussi à les régler et à la modifier comme je le voulais.
+
+# Conclusion
+
+Ce site est très bien pour mon portfolio, c'est ce qui, je pense me correspond le mieux.
+
+Il reste sujet à changement, mais je pense que je vais le garder un bon moment.
+
