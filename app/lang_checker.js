@@ -5,7 +5,7 @@ function checkLang() {
     let lang = navigator.language.toLowerCase().slice(0, 2);
     i18n.changeLanguage(lang).catch((e) => {
         if (e.code === 'LANGUAGE_NOT_SUPPORTED') {
-            i18n.changeLanguage('en');
+            i18n.changeLanguage('fr');
         }
     });
 }
